@@ -1,0 +1,34 @@
+.slider__toogles {
+  display: flex;
+}
+
+
+.slider__toogle {
+  width: 130px;
+  height: 50px;
+  border: 1px solid @border-gray;
+  background: @bg-white url("../less/blocks/slider/huge-arrow-right.svg") no-repeat center;
+
+  &--pre {
+    background-image: url("../less/blocks/slider/huge-arrow-left.svg");
+  }
+
+  &:hover, &:focus {
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: @tablet-width) {
+  .slider__toogles {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .slider__toogle {
+    width: 84px;
+    border: 0;
+
+  }
+
+}
