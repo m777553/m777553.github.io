@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="style.css">
+	  <meta charset="utf-8">
+	  <title>Mishka</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+
+  <body>
+    <header class="page-header">
+      <div class="page-header__image-wrap">
+        <picture class="page-header__header-logo">
+           <source media="(min-width: 1150px)" srcset="less/blocks/page-header/mishka-logo-desktop.svg">
+           <source media="(min-width: 768px)" srcset="less/blocks/page-header/mishka-logo-tablet.svg">
+           <img class="page-header__header-img" src="less/blocks/page-header/mishka-logo-mobile.svg" width="149" height="72" alt="Mishka - магазин товаров ручной работы">
+        </picture>
+      </div>
+      <nav class="page-header__nav main-nav main-nav--opened main-nav--nojs">
+        <button class="main-nav__toogle"  type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-nav__wraper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="catalog.html">Каталог товаров</a>
+             </li>
+             <li class="site-list__item">
+              <a href="knitting.html">Вязание на заказ</a>
+             </li>
+             <li class="site-list__item site-list__item--loupe">
+              <a href="№"><span>Поиск по сайту</span></a>
+             </li>
+             <li class="site-list__item site-list__item--basket">
+              <a href="№">Корзина: пока пуста</a>
+             </li>
+          </ul>
+          <ul class="main-nav__list main-nav__list--descktop-list">
+            <li class="site-list__item site-list__item--new">
+              <a href="#">Новые поступления</a>
+            </li>
+            <li class="site-list__item site-list__item--sale">
+              <a href="#">Распродажа</a>
+            </li>
+          </ul>
+         </div>
+      </nav>
+      <div class="page-header__cover header-cover">
+        <p class="header-cover__delivery">Бесплатная доставка по России</p>
+        <h1 class="header-cover__title">Милые штуки ручной<br> работы для дома</h1>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-main__product product">
+          <ul class="product-list">
+            <li class="product-list__item product-list__item--interior-article">
+              <a href="№">Предметы интерьера</a>
+            </li>
+            <li class="product-list__item product-list__item--toys">
+             <a href="№">Детские игрушки</a>
+            </li>
+           </ul>
+      <div class="product__wrap">
+        <h2 class="product__name">Вязаные корзинки</h2>
+        <h3 class="product__status">Товар недели</h3>
+        <p class="product__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трех размерах.</p>
+        <table class="product__features-table">
+          <tr>
+            <td>Цвет:</td>
+            <td>«Тиффани»/серый</td>
+          </tr>
+          <tr>
+            <td>Диаметр:</td>
+            <td>25 см</td>
+          </tr>
+          <tr>
+            <td>Высота:</td>
+            <td>15 см</td>
+          </tr>
+        </table>
+        <p class="product__price">Цена: 990 руб.</p>
+        <button class="product__order-button button" type="button">Заказать</button>
+        <img class="product__photo" src="img/triple-set-desktop.jpg" width="525" height="636" alt="Фото корзинок в трёх вариантах размера">
+      </div>
+      </section>
+      <section class="page-main__about-us about-us">
+        <h2  class="about-us__title">Коротко о нас:</h2>
+        <div class="about-us__wraper">
+          <ul class="about-us__list">
+            <li class="about-us__item about-us__item--eco">Экологически<br> чистые материалы</li>
+            <li class="about-us__item about-us__item--clew">Связано вручную с  <br>любовью и умилением</li>
+            <li class="about-us__item about-us__item--money">Скандинавский стиль<br>  по российской цене</li>
+            <li class="about-us__item about-us__item--rocket">Поддержка отечественного<br> производителя</li>
+            <li class="about-us__item about-us__item--heart">Увеличивает лайки<br> на фотографиях</li>
+            <li class="about-us__item about-us__item--gift">Поставляется в <br> подарочной упаковке</li>
+          </ul>
+        </div>
+      </section>
+      <section class="page-main__reviews reviews">
+        <div class="reviews__wrapper slider">
+          <h2 class="reviews__title">Отзывы</h2>
+          <button class="reviews__button button" type="button">Написать</button>
+          <!-- здесь должен быть слайдер -->
+          <div class="reviews__list slider__list">
+            <blockquote class="reviews__item slider__item">
+              <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко
+              такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и
+              игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+              <cite class="reviews__autor">
+                <span class="reviews__username">Анастасия Красильникова</span>
+                <span class="reviews__user-nickname">@misssssiskras</span>
+              </cite>
+            </blockquote>
+            <!-- <blockquote class="reviews__item slider__item">
+              <p class="reviews__text">Мне просто нарвятся красивые и удобные вещи. А ещё мне нужно как-то
+              заполнить блок цитат отзывов, чтобы проверить, как тут всё работает.</p>
+              <cite class="reviews__autor">
+                <span class="reviews__username">Марина Васильевна</span>
+                <span class="reviews__user-nickname">@marifox</span>
+              </cite>
+            </blockquote> -->
+            <p class="reviews__toogles slider__toogles">
+              <button class="slider__toogle slider__toogle--pre" type="button"><span class="visually-hidden">Предыдущий отзыв</span></button>
+              <button class="slider__toogle slider__toogle--next" type="button"><span class="visually-hidden">Следующий отзыв</span></button>
+            </p>
+          </div>
+
+        </div>
+      </section>
+      <section class="page-main__contacts contacts">
+        <div class="contacts__wrap">
+          <h2 class="contacts__title">Контакты</h2>
+          <table class="contacts__list">
+            <tr>
+              <td class="contacts__item">e-mail:</td>
+              <td class="contacts__item"><a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a></td>
+            </tr>
+            <tr>
+              <td class="contacts__item">адрес:</td>
+              <td class="contacts__item">г. Санкт-Петербург, <br>ул. Большая Конюшенная, <br>д 19/8, офис 101</td>
+            </tr>
+          </table>
+          <!-- Тут должна быть карта -->
+          <div class="contacts__map-wrap">
+            <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037861610246!2d30.3230474!3d59.9387165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1581168345419!5m2!1sru!2sru"
+            width="320" height="457" frameborder="2" style=""  allowfullscreen=""></iframe>
+
+            <picture class="contacts__map-img">
+             <source media="(min-width: 1150px)" srcset="less/blocks/contacts/map-desktop@1x.jpg">
+             <source media="(min-width: 768px)" srcset="less/blocks/contacts/map-tablet@1x.jpg">
+             <img class="page-header__header-img" src="less/blocks/contacts/map-mobile@1x.jpg" width="320" height="auto" alt="Карта">
+            </picture>
+          </div>
+          <!-- <img class="contacts__map" src="LESS/blocks/contacts/map-mobile@1x.jpg" width="320" height="457" alt="Карта"> -->
+          <button class="contacts__button button" type="button">Напишите нам</button>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrap">
+        <a class="page-footer__logo-link" href="#"><span class="visually-hidden">Главная страница</span></a>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="#"><span class="visually-hidden">Мы в инстаграм</span></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#"><span class="visually-hidden">Мы в фэйсбук</span></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#"><span class="visually-hidden">Мы в твитер</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright-wrap">
+          <b class="page-footer__copyright-text">Разработано:</b>
+          <a class="page-footer__copyright-link" href="#"><span class="visually-hidden">HTML Academy</span></a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal modal--bying">
+      <div class="modal__white-background"></div>
+      <div class="modal__wrap">
+        <h2 class="modal__title">Добавить в корзину</h2>
+        <p class="modal__text">Выберите размер:</p>
+        <div class="modal__buttons">
+          <button class="modal__button button" type="button">S</button>
+          <button class="modal__button button" type="button">M</button>
+          <button class="modal__button button" type="button">L</button>
+        </div>
+        <button class="modal__button--bying button" type="button">Добавить</button>
+      </div>
+    </div>
+  <script src="JS/script.js"></script>
+  </body>
+
+</html>
+<!-- <picture>
+ <source media="(min-width: 1200px)" srcset="img/photo-1-
+desktop.jpg">
+ <source media="(min-width: 768px)" srcset="img/photo-1-
+tablet.jpg">
+ <img src="img/photo-1-mobile.jpg" alt="Пример">
+</picture> -->
